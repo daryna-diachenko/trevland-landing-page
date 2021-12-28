@@ -1,6 +1,6 @@
-// body {
-//   font-family: $font-family-base;
-//   @include font();
-//   color: ;
-//   background-color: ;
-// }
+body {
+  font-family: $font-family-base;
+  @include font($normal, 16px, 1.5);
+  //   color: ;
+  //   background-color: ;
+}

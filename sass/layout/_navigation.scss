@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  @include font($semibold, 18px, 1.5, 0.03em);
+  //   color: $nav-text-color;
+}
+
+.navigation__btn {
+}

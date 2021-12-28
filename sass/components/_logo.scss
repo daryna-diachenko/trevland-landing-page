@@ -1,0 +1,5 @@
+.logo {
+  font-family: $font-family-logo;
+  @include font($normal, 24px, 1.5, 0.06em);
+  //   color: $nav-text-color;
+}
