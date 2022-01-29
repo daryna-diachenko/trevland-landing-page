@@ -308,6 +308,46 @@ a {
   color: inherit;
 }
 
+@font-face {
+  font-family: 'Ribeye';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Ribeye"), url("../../fonts/ribeye-regular-webfont.woff") format("woff"), url("../../fonts/ribeye-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Gelasio';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Gelasio"), url("../../fonts/gelasio-medium-webfont.woff") format("woff"), url("../../fonts/gelasio-medium-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Gelasio';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Gelasio"), url("../../fonts/gelasio-bold-webfont.woff") format("woff"), url("../../fonts/gelasio-bold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), url("../../fonts/roboto-regular-webfont.woff") format("woff"), url("../../fonts/roboto-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Roboto"), url("../../fonts/roboto-medium-webfont.woff") format("woff"), url("../../fonts/roboto-medium-webfont.woff2") format("woff2");
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
