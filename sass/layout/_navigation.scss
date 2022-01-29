@@ -1,5 +1,5 @@
 .navigation {
-  display: flex;
+  @include centered-flex();
 }
 
 .navigation__list {
@@ -8,8 +8,9 @@
 
 .navigation__item {
   @include font($semibold, 18px, 1.5, 0.03em);
-  //   color: $nav-text-color;
-}
+  color: $text-color-hero-header;
 
-.navigation__btn {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }

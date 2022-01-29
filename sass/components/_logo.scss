@@ -1,5 +1,6 @@
 .logo {
+  margin-right: 211px;
   font-family: $font-family-logo;
   @include font($normal, 24px, 1.5, 0.06em);
-  //   color: $nav-text-color;
+  color: $text-color-hero-header;
 }

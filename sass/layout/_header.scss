@@ -1,10 +1,18 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 42px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .header__container {
-  display: flex;
+  @include centered-flex();
 }
 
 .header__btn {
   margin-left: auto;
+  padding: 14px 35px;
 }
