@@ -4,12 +4,13 @@ $font-family-title: 'Gelasio', serif;
 $normal: 400;
 $semibold: 500;
 $bold: 700;
-$extra-bold: 900;
 
 // $primary-text-color: ;
 // $secondary-text-color: ;
-$nav-text-color: #ffffff;
-$hero-text-color: #ffffff;
+
+$text-color-hero-header: #ffffff;
+$bg-color-button: #c9453b;
+
 // $accent-color: ;
 // $accent-color-hovered: ;
 
@@ -19,5 +20,4 @@ $hero-text-color: #ffffff;
 
 // $card-gap: ;
 
-// $timing: 250ms;
-// $function: cubic-bezier(0.4, 0, 0.2, 1);
+$fade-in-function: 300ms cubic-bezier(0.4, 0, 0.2, 1);
