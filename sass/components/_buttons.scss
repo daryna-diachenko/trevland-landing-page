@@ -1,3 +1,27 @@
 .btn {
   @include font($normal, 16px, 1.5);
+  color: $text-color-hero-header;
+  background-color: $bg-color-button;
+  border-radius: 5px;
+  border: none;
+  transition: all $fade-in-function;
+
+  &:hover,
+  &:focus {
+    background-color: darken($bg-color-button, 5%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px 16px $text-color-hero-header,
+      5px -5px 30px $text-color-hero-header;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.5),
+      3px 3px 9px darken($bg-color-button, 15%);
+    border: none;
+    text-shadow: 1px 1px 16px $text-color-hero-header,
+      5px -5px 30px $text-color-hero-header;
+  }
 }
