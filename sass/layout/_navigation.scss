@@ -8,9 +8,51 @@
 
 .navigation__item {
   @include font($semibold, 18px, 1.5, 0.03em);
-  color: $text-color-hero-header;
+  color: $text-color-light;
 
   &:not(:last-child) {
     margin-right: 50px;
+  }
+}
+
+.navigation__link {
+  position: relative;
+  display: inline-flex;
+  padding: 10px;
+  overflow: hidden;
+  transition: color $fade-in-function;
+
+  &:hover,
+  &:focus {
+    color: $bg-color-accent;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: darken($text-color-light, 15%);
+    transform: translateX(100%);
+    transition: transform $fade-in-function;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: darken($text-color-light, 15%);
+    transform: translateX(-100%);
+    transition: transform $fade-in-function;
+  }
+
+  &:hover::before,
+  &:hover::after {
+    transform: translateX(0);
   }
 }

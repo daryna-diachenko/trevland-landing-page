@@ -1,0 +1,27 @@
+.section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.section--with-bottom-padding {
+  padding-bottom: 140px;
+}
+.section__title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: $font-family-title;
+  @include font($semibold, 43px, 1.4);
+  color: $text-color-dark;
+}
+
+.section__text {
+  max-width: 735px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: $font-family-base;
+  @include font($normal, 18px, 1.6);
+  color: $text-color-dark;
+  opacity: 0.6;
+}
